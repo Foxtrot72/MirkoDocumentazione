@@ -58,7 +58,7 @@ Architettura del Sistema
 L'applicazione segue l'architettura MVC (Model-View-Controller) con una separazione chiara tra la logica di business (servizi), l'accesso ai dati (repository) e la presentazione (controller e viste).
 
 -------------------
-
+ATTENZIONE: 
 --------------------
 Utilizzo di MongoDB:
 
@@ -105,3 +105,18 @@ L'impiego di Field è buona pratica per la manutenibilità del codice e la consi
 
 
 Fonte:https://docs.spring.io/spring-data/mongodb/reference/#mapping-usage-annotations-document
+Stripe API:
+- Aggiungere le dipendenze di Stripe
+    Aggiungi la dipendenza di Stripe nel file pom.xml
+
+- Configurare le chiavi di Stripe
+    Imposta le chiavi pubbliche e segrete di Stripe nel file application.properties o application.yml
+
+- Creare i servizi per gestire i pagamenti
+    Implementare i servizi per gestire le richieste di pagamento utilizzando la Stripe API
+
+- Implementare i controller per gestire le richieste HTTP
+    Creare i controller per ricevere e gestire le richieste di pagamento dal frontend
+
+- Configurare il frontend (opzionale)
+    Se necessario, configurare il frontend per interagire con il backend e la Stripe API.
