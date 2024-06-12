@@ -58,7 +58,7 @@ Architettura del Sistema
 L'applicazione segue l'architettura MVC (Model-View-Controller) con una separazione chiara tra la logica di business (servizi), l'accesso ai dati (repository) e la presentazione (controller e viste).
 
 -------------------
-ATTENZIONE: 
+ATTENZIONE: Per motivi di implementazione, si punta a fur funzionare il progetto senza l'uso di NoDBSQL, per possibili migliorie si lascia la documentazione relativa all'impiego di MongoDB 
 --------------------
 Utilizzo di MongoDB:
 
